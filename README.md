@@ -62,10 +62,6 @@ E-WASTE-ANALYSIS-AND-PREDICTING-RECYCLING-METHOD/
 3. The system fetches internal components of the detected device from `e_waste_recycling.json`.
 4. Recycling methods are displayed, explaining how to properly recycle each component.
 
-## 📢 Future Improvements
-- Improve accuracy of device detection.
-- Allow multiple devices in one image.
-- Add more recycling details.
 
 ## 📜 License
 This project is open-source and available under the [MIT License](LICENSE).
