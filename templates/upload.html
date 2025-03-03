@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Detection & Recycling Prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <h2><b>E-Waste Detection & Recycling Prediction</b></h2>
+        <div class="mt-3">
+            <input type="file" id="imageUpload" class="form-control d-inline-block w-auto">
+            <button class="btn btn-primary mt-2" id="processBtn" disabled>Process</button>
+        </div>
+        <div id="result" class="mt-4"></div>
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+            $("#imageUpload").change(function() {
+                $("#processBtn").prop("disabled", false);
+            });
+
+            $("#processBtn").click(function() {
+                var file = $("#imageUpload")[0].files[0];
+                if (!file) return;
+                var formData = new FormData();
+                formData.append("file", file);
+                
+                $.ajax({
+                    url: "/upload",
+                    type: "POST",
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function(response) {
+                        var imageUrl = "static/uploads/" + response.filename;
+                        var resultHtml = `<h4>Detection Result:</h4>
+                                         <img src="${imageUrl}" class="img-fluid" style="max-width: 200px;">
+                                         <p><strong>Detected Device:</strong> ${response.detected_device}</p>
+                                         <p><strong>Internal Components and Recycling Methods:</strong></p>
+                                         <ul>`;
+                        response.internal_components.forEach(function(component) {
+                            resultHtml += `<li>${component}: ${response.recycling_methods[component]}</li>`;
+                        });
+                        resultHtml += "</ul>";
+                        $("#result").html(resultHtml);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

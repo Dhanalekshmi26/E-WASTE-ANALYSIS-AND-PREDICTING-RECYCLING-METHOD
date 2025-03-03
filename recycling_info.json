@@ -1,0 +1,87 @@
+{
+    "Laptop": {
+        "internal_components": ["PCB", "Battery", "CPU", "Capacitor", "Resistor", "Transistor", "Integrated Circuit"],
+        "recycling_methods": {
+            "PCB": "Extract precious metals (gold, copper, silver) using Pyrometallurgical & Hydrometallurgical Processing.",
+            "Battery": "Recycle at an authorized center using Mechanical Separation & Hydrometallurgical Processing.",
+            "CPU": "Recycle by extracting valuable metals (gold, platinum) using Pyrometallurgical Processing.",
+            "Capacitor": "Requires disposal at e-waste recycling centers using Mechanical Shredding & Hazardous Waste Treatment.",
+            "Resistor": "Can be reused in new circuits or sent to e-waste recyclers through Reclamation & Resale.",
+            "Transistor": "Recovered for semiconductor materials or sent for proper recycling using Mechanical Separation & Refining.",
+            "Integrated Circuit": "Extract semiconductor materials and recycle through e-waste facilities using Pyrometallurgical & Hydrometallurgical Processing."
+        }
+    },
+    "Keyboard": {
+        "internal_components": ["PCB", "Capacitor", "Resistor"],
+        "recycling_methods": {
+            "PCB": "Extract precious metals (gold, copper, silver) using Pyrometallurgical & Hydrometallurgical Processing.",
+            "Capacitor": "Requires disposal at e-waste recycling centers using Mechanical Shredding & Hazardous Waste Treatment.",
+            "Resistor": "Can be reused in new circuits or sent to e-waste recyclers through Reclamation & Resale."
+        }
+    },
+    "Microwave": {
+        "internal_components": ["PCB", "Transformer", "Capacitor", "Resistor"],
+        "recycling_methods": {
+            "PCB": "Extract precious metals (gold, copper, silver) using Pyrometallurgical & Hydrometallurgical Processing.",
+            "Transformer": "Can be dismantled to recover copper wiring and metal parts for recycling through Dismantling & Metal Recovery.",
+            "Capacitor": "Requires disposal at e-waste recycling centers using Mechanical Shredding & Hazardous Waste Treatment.",
+            "Resistor": "Can be reused in new circuits or sent to e-waste recyclers through Reclamation & Resale."
+        }
+    },
+    "Mobile": {
+        "internal_components": ["PCB", "Battery", "Transistor", "Integrated Circuit"],
+        "recycling_methods": {
+            "PCB": "Extract precious metals (gold, copper, silver) using Pyrometallurgical & Hydrometallurgical Processing.",
+            "Battery": "Recycle at an authorized center using Mechanical Separation & Hydrometallurgical Processing.",
+            "Transistor": "Recovered for semiconductor materials or sent for proper recycling using Mechanical Separation & Refining.",
+            "Integrated Circuit": "Extract semiconductor materials and recycle through e-waste facilities using Pyrometallurgical & Hydrometallurgical Processing."
+        }
+    },
+    "Mouse": {
+        "internal_components": ["PCB", "Capacitor", "Resistor"],
+        "recycling_methods": {
+            "PCB": "Extract precious metals (gold, copper, silver) using Pyrometallurgical & Hydrometallurgical Processing.",
+            "Capacitor": "Requires disposal at e-waste recycling centers using Mechanical Shredding & Hazardous Waste Treatment.",
+            "Resistor": "Can be reused in new circuits or sent to e-waste recyclers through Reclamation & Resale."
+        }
+    },
+    "Player": {
+        "internal_components": ["PCB", "Battery", "Transistor"],
+        "recycling_methods": {
+            "PCB": "Extract precious metals (gold, copper, silver) using Pyrometallurgical & Hydrometallurgical Processing.",
+            "Battery": "Recycle at an authorized center using Mechanical Separation & Hydrometallurgical Processing.",
+            "Transistor": "Recovered for semiconductor materials or sent for proper recycling using Mechanical Separation & Refining."
+        }
+    },
+    "Printer": {
+        "internal_components": ["PCB", "Capacitor", "Resistor", "Integrated Circuit"],
+        "recycling_methods": {
+            "PCB": "Extract precious metals (gold, copper, silver) using Pyrometallurgical & Hydrometallurgical Processing.",
+            "Capacitor": "Requires disposal at e-waste recycling centers using Mechanical Shredding & Hazardous Waste Treatment.",
+            "Resistor": "Can be reused in new circuits or sent to e-waste recyclers through Reclamation & Resale.",
+            "Integrated Circuit": "Extract semiconductor materials and recycle through e-waste facilities using Pyrometallurgical & Hydrometallurgical Processing."
+        }
+    },
+    
+    
+    
+    "Television": {
+        "internal_components": ["PCB", "Capacitor", "Transformer", "Resistor"],
+        "recycling_methods": {
+            "PCB": "Extract precious metals (gold, copper, silver) using Pyrometallurgical & Hydrometallurgical Processing.",
+            "Capacitor": "Requires disposal at e-waste recycling centers using Mechanical Shredding & Hazardous Waste Treatment.",
+            "Transformer": "Can be dismantled to recover copper wiring and metal parts for recycling through Dismantling & Metal Recovery.",
+            "Resistor": "Can be reused in new circuits or sent to e-waste recyclers through Reclamation & Resale."
+        }
+    },
+    
+    
+    "Washing Machine": {
+        "internal_components": ["PCB", "Transformer", "Capacitor"],
+        "recycling_methods": {
+            "PCB": "Extract precious metals (gold, copper, silver) using Pyrometallurgical & Hydrometallurgical Processing.",
+            "Transformer": "Can be dismantled to recover copper wiring and metal parts for recycling through Dismantling & Metal Recovery.",
+            "Capacitor": "Requires disposal at e-waste recycling centers using Mechanical Shredding & Hazardous Waste Treatment."
+        }
+    }
+}

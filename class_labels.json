@@ -1,0 +1,22 @@
+{
+    "0": "Battery",
+    "1": "Inductor",
+    "2": "Keyboard",
+    "3": "Laptop",
+    "4": "Microwave",
+    "5": "Mobile",
+    "6": "Mouse",
+    "7": "PCB",
+    "8": "Player",
+    "9": "Printer",
+    "10": "Television",
+    "11": "Washing Machine",
+    "12": "Capacitor",
+    "13": "Case",
+    "14": "CPU",
+    "15": "Diode",
+    "16": "Integrated Circuit",
+    "17": "Resistor",
+    "18": "Transformer",
+    "19": "Transistor"
+}
