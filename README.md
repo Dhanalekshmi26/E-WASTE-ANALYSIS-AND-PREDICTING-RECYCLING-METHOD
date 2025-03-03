@@ -37,7 +37,8 @@ Training Environment: The model is trained using TensorFlow/Keras or PyTorch on 
 The trained model is evaluated using a test dataset.
 A confusion matrix is generated to analyze misclassifications.
 The model's performance is fine-tuned by adjusting hyperparameters if necessary.
-6. Flask Web Application
+
+5. Flask Web Application
 
 User Input: Users can upload an image from the test_images folder.
 Detection System:
@@ -47,12 +48,12 @@ Output Display:
 The detected device, its internal components, and their recommended recycling methods are displayed in the UI.
 The system provides technical recycling terms such as "Pyrometallurgical Processing" for PCBs.
 
-7. JSON-Based Recycling Information Storage
+6. JSON-Based Recycling Information Storage
    
 Data Storage: A JSON file (e_waste_recycling.json) stores mappings between detected devices, their internal components, and recycling methods.
 API Endpoint: A Flask API endpoint (/recycling-info?device=<device_name>) returns internal components and recycling methods for a detected device.
 
-9. Deployment & Future Enhancements
+7. Deployment & Future Enhancements
 
 Deployment: The system is deployed on a local Flask server.
 Future Enhancements:
